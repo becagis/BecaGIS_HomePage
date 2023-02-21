@@ -14,6 +14,11 @@ use Roots\WPConfig\Config;
  * Example: `Config::define('DISALLOW_FILE_MODS', false);`
  */
 
+
+require_once __DIR__ . '/common.php';
+
 Config::define('DISALLOW_INDEXING', true);
-Config::define('DISALLOW_FILE_MODS', false);
+
 Config::define('WP_DEBUG', true);
+
+

@@ -1,3 +1,6 @@
 # WP Rocket
 /advanced-cache.php
 /wp-rocket-config/
+
+# Redis Object Cache
+/object-cache.php
