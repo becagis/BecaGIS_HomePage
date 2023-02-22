@@ -20,5 +20,3 @@ require_once __DIR__ . '/common.php';
 Config::define('DISALLOW_INDEXING', true);
 
 Config::define('WP_DEBUG', true);
-
-

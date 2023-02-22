@@ -1,0 +1,20 @@
+# WP Rocket
+/app/advanced-cache.php
+/app/wp-rocket-config
+
+# Redis Object Cache
+/app/object-cache.php
+
+# Wordfence
+/app/wflogs
+/.user.ini
+
+# Docket cache
+/app/.object-cache-after-delay.txt
+/app/docket-cache-data
+
+
+
+/app/db.php
+
+
