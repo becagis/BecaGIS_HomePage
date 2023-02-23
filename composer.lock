@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "1f7a366a5ebb8246fa324ce056e04a68",
+    "content-hash": "c373de1d269da22ebbb21fb8ea533cbb",
     "packages": [
         {
             "name": "composer/installers",
@@ -1123,24 +1123,6 @@
             "time": "2022-10-16T01:01:54+00:00"
         },
         {
-            "name": "wpackagist-plugin/anywhere-elementor",
-            "version": "1.2.7",
-            "source": {
-                "type": "svn",
-                "url": "https://plugins.svn.wordpress.org/anywhere-elementor/",
-                "reference": "trunk"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/anywhere-elementor.zip?timestamp=1670493973"
-            },
-            "require": {
-                "composer/installers": "^1.0 || ^2.0"
-            },
-            "type": "wordpress-plugin",
-            "homepage": "https://wordpress.org/plugins/anywhere-elementor/"
-        },
-        {
             "name": "wpackagist-plugin/better-search-replace",
             "version": "1.4.2",
             "source": {
@@ -1214,15 +1196,15 @@
         },
         {
             "name": "wpackagist-plugin/elementor",
-            "version": "3.11.1",
+            "version": "3.11.2",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/elementor/",
-                "reference": "tags/3.11.1"
+                "reference": "tags/3.11.2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/elementor.3.11.1.zip"
+                "url": "https://downloads.wordpress.org/plugin/elementor.3.11.2.zip"
             },
             "require": {
                 "composer/installers": "^1.0 || ^2.0"
@@ -1267,24 +1249,6 @@
             "homepage": "https://wordpress.org/plugins/query-monitor/"
         },
         {
-            "name": "wpackagist-plugin/really-simple-ssl",
-            "version": "6.2.0",
-            "source": {
-                "type": "svn",
-                "url": "https://plugins.svn.wordpress.org/really-simple-ssl/",
-                "reference": "tags/6.2.0"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/really-simple-ssl.6.2.0.zip"
-            },
-            "require": {
-                "composer/installers": "^1.0 || ^2.0"
-            },
-            "type": "wordpress-plugin",
-            "homepage": "https://wordpress.org/plugins/really-simple-ssl/"
-        },
-        {
             "name": "wpackagist-plugin/redis-cache",
             "version": "2.2.3",
             "source": {
@@ -1322,39 +1286,21 @@
         },
         {
             "name": "wpackagist-plugin/seo-by-rank-math",
-            "version": "1.0.108",
+            "version": "1.0.109",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/seo-by-rank-math/",
-                "reference": "tags/1.0.108"
+                "reference": "tags/1.0.109"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/seo-by-rank-math.1.0.108.zip"
+                "url": "https://downloads.wordpress.org/plugin/seo-by-rank-math.1.0.109.zip"
             },
             "require": {
                 "composer/installers": "^1.0 || ^2.0"
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/seo-by-rank-math/"
-        },
-        {
-            "name": "wpackagist-plugin/stops-core-theme-and-plugin-updates",
-            "version": "9.0.14",
-            "source": {
-                "type": "svn",
-                "url": "https://plugins.svn.wordpress.org/stops-core-theme-and-plugin-updates/",
-                "reference": "tags/9.0.14"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/stops-core-theme-and-plugin-updates.9.0.14.zip"
-            },
-            "require": {
-                "composer/installers": "^1.0 || ^2.0"
-            },
-            "type": "wordpress-plugin",
-            "homepage": "https://wordpress.org/plugins/stops-core-theme-and-plugin-updates/"
         },
         {
             "name": "wpackagist-plugin/svg-support",
@@ -2016,16 +1962,16 @@
         },
         {
             "name": "squizlabs/php_codesniffer",
-            "version": "3.7.1",
+            "version": "3.7.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/squizlabs/PHP_CodeSniffer.git",
-                "reference": "1359e176e9307e906dc3d890bcc9603ff6d90619"
+                "reference": "ed8e00df0a83aa96acf703f8c2979ff33341f879"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/squizlabs/PHP_CodeSniffer/zipball/1359e176e9307e906dc3d890bcc9603ff6d90619",
-                "reference": "1359e176e9307e906dc3d890bcc9603ff6d90619",
+                "url": "https://api.github.com/repos/squizlabs/PHP_CodeSniffer/zipball/ed8e00df0a83aa96acf703f8c2979ff33341f879",
+                "reference": "ed8e00df0a83aa96acf703f8c2979ff33341f879",
                 "shasum": ""
             },
             "require": {
@@ -2061,14 +2007,15 @@
             "homepage": "https://github.com/squizlabs/PHP_CodeSniffer",
             "keywords": [
                 "phpcs",
-                "standards"
+                "standards",
+                "static analysis"
             ],
             "support": {
                 "issues": "https://github.com/squizlabs/PHP_CodeSniffer/issues",
                 "source": "https://github.com/squizlabs/PHP_CodeSniffer",
                 "wiki": "https://github.com/squizlabs/PHP_CodeSniffer/wiki"
             },
-            "time": "2022-06-18T07:21:10+00:00"
+            "time": "2023-02-22T23:07:41+00:00"
         },
         {
             "name": "symfony/var-dumper",

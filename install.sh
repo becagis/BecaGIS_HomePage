@@ -7,6 +7,7 @@ source .env
 [ "$FORCE_REINIT" == true ] && rm -rf composer.lock vendor
 
 composer install --ignore-platform-reqs
+composer update
 
 wp core install --url=$WP_HOME \
   --title="${WP_SITENAME:=WordPress}" \
