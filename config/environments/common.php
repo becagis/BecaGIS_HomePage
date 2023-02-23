@@ -3,7 +3,7 @@ use Roots\WPConfig\Config;
 use function Env\env;
 
 Config::define('WP_DEBUG', false);
-Config::define('DISABLE_WP_CRON', true);
+Config::define('DISABLE_WP_CRON', false);
 Config::define('DISALLOW_FILE_MODS', false);
 
 Config::define('WP_CACHE_KEY_SALT', env('WP_CACHE_KEY_SALT') ?? 'becagis.vn');
