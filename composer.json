@@ -31,7 +31,7 @@
     }
   ],
   "require": {
-    "php": ">=8.0",
+    "php": "^8.0",
     "composer/installers": "^2.2",
     "vlucas/phpdotenv": "^5.5",
     "oscarotero/env": "^2.1",
@@ -47,6 +47,7 @@
     "wpackagist-plugin/svg-support": "*",
     "wpackagist-plugin/wpdiscuz": "*",
     "wpackagist-plugin/child-theme-configurator": "*",
+    "wpackagist-plugin/wp-crontrol": "*",
     "wpackagist-plugin/regenerate-thumbnails": "*",
     "wpackagist-plugin/code-snippets": "*",
     "wpackagist-plugin/query-monitor": "*",
@@ -58,7 +59,7 @@
   "require-dev": {
     "squizlabs/php_codesniffer": "^3.7.1",
     "roave/security-advisories": "dev-latest",
-    "symfony/var-dumper": "*",
+    "symfony/var-dumper": "^6.0",
     "spatie/ignition": "^1.4"
   },
   "config": {

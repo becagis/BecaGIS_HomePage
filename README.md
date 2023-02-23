@@ -1,7 +1,7 @@
 # BecaGIS
 
 ## Enable WP Cron
-WP Control
+WP Control   
 
 
 ## Install plugins
@@ -44,7 +44,8 @@ for z in *.zip; do unzip "$z"; done
 - WPML
 
 #### Optional
-- "wpackagist-plugin/regenerate-thumbnails": "*"
+- "wpackagist-plugin/wp-crontrol": "*",
+- "wpackagist-plugin/regenerate-thumbnails": "*",
 - "wpackagist-plugin/code-snippets": "*",
 - "wpackagist-plugin/query-monitor": "*",
 - "wpackagist-plugin/enable-media-replace": "*",
