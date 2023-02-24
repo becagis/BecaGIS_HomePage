@@ -18,7 +18,7 @@ package-lock.json
 npm-debug.log
 yarn-error.log
 /galaxy-config.php
-auth.json
+# auth.json
 /storage/*.key
 
 # WordPress
