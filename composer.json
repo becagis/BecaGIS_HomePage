@@ -5,6 +5,10 @@
     "license": "GPL-3.0-or-later",
     "homepage": "https://typerocket.com",
     "repositories": {
+        "local": {
+            "type": "path",
+            "url": "./packages/*"
+        },
         "professional": {
             "type": "composer",
             "url": "https://satis.typerocket.com",
@@ -28,7 +32,7 @@
     "require": {
         "php": "^8.0.2",
         "typerocket/core": "^6.0",
-        "typerocket/professional": "*"
+        "typerocket/professional": "*@dev"
     },
     "require-dev": {
         "phpunit/phpunit": "^9.5"
