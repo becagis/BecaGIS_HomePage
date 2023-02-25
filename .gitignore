@@ -4,9 +4,6 @@
 !/wordpress/wp-content/mu-plugins/
 !/wordpress/wp-content/advanced-cache.php
 
-/packages/professional
-
-
 # Vendor
 node_modules
 /vendor
@@ -51,3 +48,6 @@ Thumbs.db
 *.log
 *.zip
 .svn
+
+/packages/professional
+!/wordpress/wp-content/themes/astra
